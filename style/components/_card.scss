@@ -1,0 +1,29 @@
+.card {
+	background-color: #0a0a0a;
+	border-radius:2px;
+	padding: 30px;
+	width: 500px;
+	h4 {
+		margin-bottom: 1.5rem;
+		font-weight: bold;
+		font-size: 150%;
+		color: $brand-clr-02;
+	}
+	p {
+		margin-bottom: 1rem;
+		font-size: 70%;
+		line-height: 180%;
+		color: $brand-clr-03-09;
+	}
+	ul {
+		display: flex;
+		// justify-content: space-between;
+		font-size: 70%;
+		width: 400px;
+		font-family: $mono;
+		color: $brand-clr-03;
+		li {
+			margin-right: 10px;
+		}
+	}
+}

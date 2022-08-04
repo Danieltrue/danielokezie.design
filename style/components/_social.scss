@@ -1,0 +1,30 @@
+.social_handles {
+	position: fixed;
+	left: 0;
+	// right: 0;
+	bottom: 0;
+	height: 500px;
+	width: 200px;
+	
+	.row {
+		max-width: 1500px;
+		main {
+		
+			ul {
+				li {
+					margin-top: 1rem;
+					a {
+						i {
+							color: $brand-clr-03-09;
+							transition: all .3s;
+							&:hover {
+								color: $brand-clr-02;
+								transform: translateY(-2px);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

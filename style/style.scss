@@ -1,0 +1,52 @@
+@import "./components/reset";
+@import "./components/color";
+@import "./components/font";
+@import "./components/header";
+@import "./components/button";
+@import "./components/social";
+@import "./components/about";
+@import "./components/project";
+@import "./components/box";
+@import "./components/card";
+
+
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	cursor: default;
+}
+
+
+
+html {
+	font-family: $san-serif;
+}
+
+.section-head {
+	li {
+		h4 {
+			color: $brand-clr-03-09;
+			font-weight: bold;
+			font-size: 140%;
+			span {
+				margin-right: 10px;
+				color: $brand-clr-02;
+				font-family: $mono;
+				font-size: 90%;
+				font-weight: 400;
+			}
+		}
+	}
+}
+
+
+body {
+	background: $brand-clr-01;
+}

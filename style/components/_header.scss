@@ -1,0 +1,110 @@
+header {
+	height: 100vh;
+	width: 100%;
+		background-color: $brand-clr-01;
+
+	main {
+		background-color: $brand-clr-01;
+		height: 60%;
+		width: 100%;
+		position: relative;
+	}
+	nav {
+		background-color: $brand-clr-01;
+		width: 100%;
+		padding: 3rem 0;
+		.row {
+			display: flex;
+			justify-content: space-between;
+		}
+		a.logo {
+			img {
+				width: 40px;
+			}
+		}
+		.hamburger {
+			width: 50px;
+			height: 20px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: flex-end;
+			transition: all .5s ease;
+			position: relative;
+
+
+			div.ham {
+				width: 20%;
+				background-color: $brand-clr-02;
+				height: 2px;
+				&.ham-1 {
+					width:50%; 
+				}
+				&.ham-3 {
+					width:70%; 
+				}
+
+			}
+		}
+		ul, ol {
+			display: flex;
+		
+			li {
+				list-style-type: decimal;
+				margin-left: 70px;
+				font-family: $mono;
+				font-weight: 500;
+				&::marker {
+					color: $brand-clr-02;
+					font-size: 80%;
+				}
+				a {
+					color: $brand-clr-03-09;
+					font-size: 80%;
+					&:hover {
+						color: $brand-clr-02;
+					}
+				}
+			}
+		}
+	}
+	.head-text {
+		margin-top: 2.5rem;
+		p {
+			font-size: 80%;
+			line-height: 205%;
+			&.addressing {
+				font-family: $mono;
+				color: $brand-clr-02;
+			}
+			&.description {
+				width: 400px;
+				line-height: 165%;
+				margin-bottom: 50px;
+				font-size: 90%;
+				color: $font-clr-09;
+			}
+		}
+		h1 {
+			font-family: $san-serif;
+			font-size: 350%;
+			font-weight: bold;
+			line-height: 145%;
+			span {
+				color: $font-clr-09;
+
+			}
+		}
+
+	}
+	.scroll-holder {
+		padding: 2rem 0;
+		.row {
+			height: 100%;
+			div {
+
+				
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+.projects {
+	background: $brand-clr-01;
+	height: 100vh;
+	padding: 5rem 0 !important;
+	.project-title {
+		h1 {
+			font-weight: bold;
+			color: $brand-clr-02;
+			letter-spacing: 1px;
+		}
+		p {
+			line-height: 145%;
+			width: 300px;
+			margin-top: 1rem;
+			color: $brand-clr-03-09;
+			font-size: 80%;
+		}
+	}
+
+	main {
+		margin-top: 2rem;
+	}
+	.link {
+		margin-bottom: 1rem;
+	}
+}

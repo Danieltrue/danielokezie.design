@@ -1,0 +1,14 @@
+.about {
+	background-color: $brand-clr-01;
+	main.about-it {
+		height: 80vh;
+		padding: 1rem 1rem;
+		 p {
+		 	color: $brand-clr-03-09;
+		 	margin-top: 3rem;
+		 	width: 500px;
+		 	line-height: 175%;
+		 	font-size: 90%;
+		 }
+	}
+}

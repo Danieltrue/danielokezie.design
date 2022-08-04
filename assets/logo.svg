@@ -1,0 +1,12 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="59.392" height="59.392" viewBox="0 0 59.392 59.392">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #FFFFFF;
+      }
+    </style>
+  </defs>
+  <path id="Path_5" data-name="Path 5" class="cls-1" d="M29.684,3.08a26.616,26.616,0,1,1-18.821,7.793A26.618,26.618,0,0,1,29.684,3.08m0-3.08a29.694,29.694,0,1,0,21,8.7,29.695,29.695,0,0,0-21-8.7Z" transform="translate(0.015 0)"/>
+  <rect id="Rectangle_5" data-name="Rectangle 5" class="cls-1" width="59.388" height="3.08" transform="translate(7.614 49.73) rotate(-45)"/>
+  <rect id="Rectangle_6" data-name="Rectangle 6" class="cls-1" width="3.08" height="59.388" transform="translate(7.612 9.911) rotate(-45)"/>
+</svg>

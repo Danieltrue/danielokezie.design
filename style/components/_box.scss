@@ -1,0 +1,26 @@
+.box {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100vh;
+	transform: translateX(-100%);
+	background: $brand-clr-01;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-right: 2px solid $brand-clr-02;
+	p {
+		color: $brand-clr-02;
+		font-size: 300%;
+		font-weight: bolder;
+		margin-top: 1rem;
+	}
+	img {
+		width: 60px;
+		height: 60px;
+	}
+}
