@@ -19,6 +19,9 @@
 
 	main {
 		margin-top: 2rem;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 10px;
 	}
 	.link {
 		margin-bottom: 1rem;

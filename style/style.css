@@ -606,6 +606,9 @@ header .scroll-holder .row {
 }
 .projects main {
   margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
 }
 .projects .link {
   margin-bottom: 1rem;
@@ -639,32 +642,36 @@ header .scroll-holder .row {
 }
 
 .card {
-  background-color: #0a0a0a;
   border-radius: 2px;
-  padding: 30px;
-  width: 500px;
+  width: 400px;
+  margin-bottom: 3rem;
 }
 .card h4 {
-  margin-bottom: 1.5rem;
+  padding: 0.5rem 0;
   font-weight: bold;
-  font-size: 150%;
+  font-size: 100%;
   color: #a7ff83;
 }
 .card p {
-  margin-bottom: 1rem;
-  font-size: 70%;
+  margin: 1rem 0;
+  font-size: 60%;
   line-height: 180%;
   color: #555;
+  background-color: #0a0a0a;
+  padding: 20px;
+  font-weight: 500;
+  min-height: 170px;
 }
 .card ul {
   display: flex;
-  font-size: 70%;
   width: 400px;
   font-family: fira mono, monospace;
   color: #ffffff;
+  margin-top: 1rem;
 }
 .card ul li {
   margin-right: 10px;
+  font-size: 60%;
 }
 
 .row {
